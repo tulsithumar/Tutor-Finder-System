@@ -1,0 +1,158 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="newcs.css">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <a href='reg.html'></a>
+        <div class="full-page">
+            <div><a href='reg.html'><img src="/Project/Images/cover1.png" ></a></div>
+        <div class="navlinks">
+      <nav>
+           
+      
+            
+                
+                <ul id='MenuItems'>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;"> Sign-In</button></li>
+                    <li><button class='regbtn' onclick="document.getElementById('registration-form').style.display='block'" style="width:auto;"> Sign-UP</button></li>
+                
+                </ul>
+            </nav>
+        </div>
+            
+            
+            <div id='login-form' class="login-page">
+                <div class="form-box">
+                    <div class="form">
+                        <form class="login-form">
+                            <center><h1 class="main-heading" style="color: #ffffff">Sign-IN</h1></center>
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required=""
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required=""
+              />
+			  
+                     <button formaction="/Project/JspFiles/LoginStudent.jsp">Login</button>
+                          
+                          <br/>
+                          <br/> <a style="margin-left: 10%; color: #fff; display: block;" href="#" >Forgot Password?</a>
+                        </form>
+                        
+                        
+                    </div>
+                    
+                </div>  
+                
+                
+                
+                
+            </div>
+            
+            
+        <div id='registration-form' class="registration-page">
+                <div class="form-box1">
+                    <div class="form">
+                        <form class="registration-form" id="reg">
+                            <center><h1 class="main-heading" style="color: #ffffff">Sign-UP</h1></center>
+              <input type="text" name="name" placeholder="Name" required="" />
+              <input
+                type="text"
+                name="middlename"
+                placeholder="Middle Name"
+                required=""
+              />
+              <input
+                type="text"
+                name="surname"
+                placeholder="Surname"
+                required=""
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required=""
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required=""
+              />
+              <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required=""
+            />
+              <input
+                type="number"
+                name="mobileno"
+                placeholder="Contact No."
+                required=""
+              />
+              <input type="text" name="age" placeholder="Age" required="" />
+              <input
+                type="text"
+                name="city"
+                placeholder="city"
+                required=""
+              />
+              <input
+                type="text"
+                name="standard"
+                placeholder="Standard"
+                required=""
+              />
+              <input
+              type="text"
+              name="schoolname"
+              placeholder="School Name"
+              required=""
+              /><div>
+            <select>
+              <option>--Select Security Questions--</option>
+              <option>What is your favourite city?</option>
+              <option>What is your zodiac sign?</option>
+            </select>
+              <input
+                type="text"
+                name="sq1"
+                placeholder="Answer"
+                required=""
+              />
+              <select>
+                <option>--Select Security Questions--</option>
+                <option>What is your favourite city?</option>
+                <option>What is your zodiac sign?</option>
+              </select>
+              <input
+                type="text"
+                name="sq2"
+                placeholder="Answer"
+                required=""
+              />
+              <button formaction="/Project/JspFiles/RegisterStudent.jsp">Sign up</button>
+          
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+    </body>
+</html>

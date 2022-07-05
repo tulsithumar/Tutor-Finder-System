@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/Project/HtmlFiles/forgot.css" />
+    </head>
+    <body>
+<header>
+        <h1 class="mainHeading">TUTOR FINDER SYSTEM</h1>
+        <div class="headingNav">
+<!--            <a class="navLink" name="logout" href="Admin.html">Login</a>-->
+        </div>
+    </header>
+
+    <div class="container">
+
+        <form class="tutorForm" method="post">
+            <h1>Admin Login</h1>
+            <div class="inputBox">
+                <label>Username </label>
+                <input name="username" type="text" />
+            </div>
+            <div class="inputBox">
+                <label>Password</label>
+                <input name="password" type="password" />
+            </div>
+
+            <div class="inputBox">
+                <label></label>
+                <input type="submit" value="Login" formaction="/Project/JspFiles/AdminLogin.jsp">
+<!--              <button formaction="/Project/JspFiles/AdminLogin.jsp"></button>-->
+
+            </div>
+        </form>
+    </div>
+    </div>
+        
+    </body>
+</html>
